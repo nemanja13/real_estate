@@ -1,0 +1,25 @@
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'idVisiti' in 'field list'	04-06-2020 14:16:13
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sajtpraktikumphp.agents' doesn't exist	04-06-2020 14:17:15
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'vo.idAgentVisit' in 'field list'	08-06-2020 12:03:22
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idAgentVisit' cannot be null	08-06-2020 12:26:31
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idAgentVisit' cannot be null	08-06-2020 12:27:47
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN visit v ON prs.idVisit=v.idVisit INNER JOIN agent_visit av ON av.idVi' at line 1	09-06-2020 18:28:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN visit v ON prs.idVisit=v.idVisit INNER JOIN agent_visit av ON av.idVi' at line 1	09-06-2020 18:28:53
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN visit v ON prs.idVisit=v.idVisit INNER JOIN agent_visit av ON av.idVi' at line 1	09-06-2020 18:28:54
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN visit v ON prs.idRealEstate=v.idRealEstate INNER JOIN agent_visit av ' at line 1	09-06-2020 18:30:05
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM real_estate rs INNER JOIN visit v ON rs.idVisit=v.idVisit INNER JOIN agent_' at line 1	09-06-2020 18:35:01
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM real_estate rs INNER JOIN visit v ON rs.idRealEstate=v.idRealEstate INNER J' at line 1	09-06-2020 18:35:50
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sajtpraktikumphp`.`agent`, CONSTRAINT `agent_ibfk_1` FOREIGN KEY (`idType`) REFERENCES `type` (`idType`))	09-06-2020 19:17:41
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'linkLinkedin' cannot be null	09-06-2020 19:19:24
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nemanja.maksimovic@gmail.com' for key 'email'	11-06-2020 17:11:12
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nemanja.maksimovic@gmail.com' for key 'email'	11-06-2020 17:11:31
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nemanja.maksimovic@gmail.com' for key 'email'	11-06-2020 17:14:28
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nemanja.maksimovic@gmail.com' for key 'email'	11-06-2020 17:16:18
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nemanja.maksimovic@gmail.com' for key 'email'	16-06-2020 19:11:09
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nemanja.nikolic@gmail.com' for key 'email'	16-06-2020 19:11:23
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nemanja.nikolic@gmail.com' for key 'email'	16-06-2020 19:11:50
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nemanja@gmail.com' for key 'email'	16-06-2020 19:12:13
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nem@gmail.com' for key 'email'	16-06-2020 19:13:54
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'ne@gmail.com' for key 'email'	16-06-2020 19:15:11
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nemanjammovic13081999@gmail.com' for key 'email'	16-06-2020 19:15:37
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'marko.markovic@gmail.com' for key 'email'	16-06-2020 19:26:12

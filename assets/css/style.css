@@ -1,0 +1,1322 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.flex, .flex1, .flex2, .flex3{
+    display: flex;
+}
+.flex1, .flex2{
+    justify-content: space-between;
+    align-items: center;
+}
+.flex2{
+    justify-content: center;
+    flex-direction: column;
+}
+.flex3{
+    flex-direction: column;
+}
+.flexWrap{
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#topHeader{
+    padding: 5px;
+    background-color: rgb(43, 65, 187);
+    color: white;
+    text-align: center;
+}
+#topHeader a{
+    margin: 0px 5px;
+    color: white;
+    font-size: 18px;
+}
+header{
+    height: 60px;
+}
+#logo img{
+    height: 60px;
+    width: auto;
+}
+#header a{
+    padding-bottom: 17px;
+}
+#nav a{
+    margin: 0px 15px;
+}
+#navLog li:nth-child(odd){
+    padding: 5px;
+}
+#navLog a{
+    padding-bottom: 14px;
+}
+#header a:hover{
+    border-bottom: 2px solid blue;
+}
+.blok{
+    width: 23% !important;
+    margin: 1%;
+    height: 250px;
+    border:1px solid rgba(216, 216, 216, 0.801);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.blokSlika{
+    position: relative;
+}
+.blok:hover{
+    box-shadow: 5px 5px 10px gray;
+}
+h1,h2,h3{
+    font-family: 'Poppins', sans-serif;
+}
+.blok p{
+    padding: 2.5px 0px 0px 10px;
+}
+.blok .new{
+    color:white;
+    background-color: green;
+    position: absolute;
+    left: 3px;
+    top: 5px;
+    padding: 2px;
+}
+.price{
+    color:white;
+    position: absolute;
+    left: 10px;
+    bottom: 5%;
+    z-index: 10;
+    font-size: 18px;
+}
+.row{
+    height: 100%;
+}
+#sellContainer{
+    margin: 20px 0px;
+    height: 500px;
+    background-image: url(../images/sell.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#sell{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+#sell h2{
+    font-weight: normal;
+}
+#newest .blokSlika{
+    height: 50%;
+    overflow: hidden;
+}
+#newest .blokSlika img{
+    width: 100%;
+    height: 100%;
+}
+#sell h3{
+    width: 60%;
+    font-size: 22px;
+    text-align: center;
+    margin: 15px 0px; 
+    font-weight: normal;
+}
+#sell a{
+    border: 1px solid white;
+    margin-top: 30px;
+    padding: 5px 18px;
+    color: white;
+    transition: 0.3s;
+}
+#sell a:hover{
+    color: #333;
+    background-color: white;
+}
+.naslov2{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.naslov{
+    padding-top: 40px;
+}
+#agenti{
+    margin: 20px 0px;
+    text-align: center;
+}
+#agenti h2{
+    margin-bottom: 30px;
+}
+.agentSlika img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.agentText{
+    position: relative;
+    padding: 20px;
+    border-left: 1px solid rgba(155, 155, 155, 0.5);
+    align-items: center;
+}
+.crta{
+    height: 35px;
+    background-color: rgb(43, 65, 187);
+    width: 3px;
+    border-radius: 10px;
+    position: absolute;
+    left: -1.8px;
+}
+.crta2{
+    height: 3px;
+    background-color: rgb(43, 65, 187);
+    width: 45px;
+    margin: 10px 0px;
+}
+.agentIme{
+    font-size: 20px;
+}
+.text{
+    padding: 40px;
+}
+.text p{
+    font-size: 18px;
+    margin: 25px 0px;
+}
+#modalLogoImg{
+    align-items: center;
+}
+#modalLogo{
+    width: 100px;
+}
+#about, #imagePreview{
+    overflow-x: hidden;
+}
+#about, #formContainer, #formRegister, #userProperty{
+    padding: 40px;
+    background-color: rgba(216, 216, 216, 0.1);
+    border-top: 1px solid rgba(155, 155, 155, 0.5);
+}
+#backgroundInfo{
+    height: 370px;
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#backgroundInfo h3{
+    margin-top: 10px;
+    font-size: 55px;
+}
+#partneri{
+    padding: 40px;
+}
+#partneri div.col-3{
+    padding: 10px;
+    text-align: center;
+}
+#footer{
+    position: relative;
+    background-image: url(../images/background2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    min-height: 400px;
+    color: white;
+}
+.blokFooter img{
+    width: 180px;
+    float: left;
+    padding:10px 10px 10px 0px;
+}
+#footer a{
+    color: white;
+    transition: 0.3s;
+}
+#footer a:hover{
+    color:rgb(43, 65, 187);
+}
+.blokFooter{
+    padding: 30px;
+    line-height: 2;
+}
+.blokFooter p{
+    margin: 10px;
+}
+#soc a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    padding: 18px;
+    position: relative;
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    line-height:40px;
+    color: #bbb;
+    text-align: center;
+    background:transparent;
+}
+#soc a:before, #soc a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: transparent;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    transition: .3s all;
+    border: 1px solid rgb(248, 243, 243);
+}
+#soc a:hover:after {
+    border-color: rgb(248, 243, 243);
+}
+#soc a:hover:before {
+    transform: scale(1.5);
+    transition: .3s all;
+    opacity: 0;
+}
+#copyright{
+    color: #bbb;
+}
+#goUp{
+    position: absolute;
+    top: -25px;
+    left: 47%;
+    z-index: 10;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(43, 65, 187);
+    border-radius: 50%;
+    color: white;
+}
+#effect{
+    animation: move 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    position: absolute;
+    left: 40%;
+}
+.fa-heart:hover{
+    color: rgb(255, 66, 66);
+}
+.mojModal a{
+    color: rgb(43, 65, 187);
+}
+.mojModalContainer{
+    position: fixed;
+    top: 20%;
+    height: 300px;
+    z-index: 100;
+    animation:  animatetop 0.5s;
+}
+.mojModal .closeModal:hover{
+    color: #333;
+}
+.mojModal{
+    margin: 0px auto;
+    position: relative;
+    max-width: 400px;
+    background-color: white;
+    border: 1px solid rgba(216, 216, 216, 0.3);
+}
+.modalContent{
+    font-size: 18px;
+    margin: 10px;
+    padding-bottom: 40px;
+}
+.modalContent span, .modalContent input{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.modalContent input, #contactForm input{
+    margin: 20px;
+    border: none;
+    border-bottom: 1px solid #4d4d4d;
+    height: 30px;
+}
+.modalFooter input, .posalji{
+   padding: 8px 12px;
+   background-color: white;
+   color:  rgb(43, 65, 187);
+   border: 1px solid rgb(43, 65, 187);
+   transition: 0.3s;
+}
+.modalFooter input, #searchForm form input[type=number]{
+    width: 80%;
+}
+.search{
+    margin-top: 8px;
+}
+.modalFooter input:hover, .posalji:hover, #visit input[type=button]:hover{
+    background-color: rgb(43, 65, 187);
+    color: white;
+ }
+.modalHeader{
+    align-items: initial;
+    background-color: rgb(43, 65, 187);
+    color:white;
+    padding: 20px;
+}
+.modalFooter{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.textLoginRegister{
+    font-size: 14px;
+    margin: 5px 0px;
+}
+input{
+    outline: none;
+}
+
+#nekretnine, #nekretnine2, #paginationContainer{
+    background-color: rgba(216, 216, 216, 0.1);
+    padding: 40px;
+}
+.nekretnina, #searchForm, .email{
+    background-color: white;
+    padding: 20px;
+    margin: 30px auto;
+}
+.nekretnina>div{
+    padding: 20px;
+}
+.nekretnina h4{
+    font-size: 30px;
+    color:rgb(43, 65, 187);
+}
+.nekretnina h3:hover{
+    color: rgb(43, 65, 187);
+}
+.info{
+    background-color: rgb(43, 65, 187);
+    color:white;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 10px;
+}
+.tekst>p{
+    padding: 5px 0px 10px 0px;
+    color: #8a8989;
+}
+.tekst{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.slika{
+    position: relative;
+}
+.slika .sellRent{
+    background-color: rgb(43, 65, 187);
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    top: 40px;
+    right: 20px;
+    padding: 5px 10px;
+}
+.nekretnina:hover{
+    box-shadow: 5px 5px 10px rgba(155, 155, 155, 0.5);
+}
+#mapa{
+    padding: 0px;
+    margin-bottom: 30px;
+}
+#mapa iframe{
+    width: 100%;
+    height: 400px;
+}
+#contact{
+    padding: 50px 40px 120px 40px;
+}
+.agentContact a{
+    color: #8a8989;
+    margin-top: 6px;
+}
+.agentContact{
+    justify-content: space-around;
+    width: 160px;
+    margin: 10px 0px 50px 0px;
+}
+.agentContact a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #8a8989;
+    transition: 0.3s;
+}
+.agentContact a:hover{
+    background-color: rgb(43, 65, 187);
+    color: white;
+}
+#contactForm label{
+    width: 50%;
+}
+#contactForm{
+    flex-wrap: wrap;
+}
+#contactForm>div{
+    padding: 10px;
+}
+.greska{
+    display: none;
+}
+#firstNameContact, #lastNameContact{
+    width: 50%;
+}
+#subject, #message, #searchForm form div.col-2 input, .blokReg input, #formEdit select, #formContainer form, #userProperty img{
+    width: 100%;
+}
+#contactForm input, .listingDetails input, .listingDetails select{
+    width: 100%;
+    margin: 0px;
+}
+textarea{
+    resize: none;
+}
+#contactInfo{
+    justify-content: space-around;
+    flex-direction: column;
+}
+#contactInfo p, .propertyInfo, #address, #propertyTypeCity{
+    color: rgba(155, 155, 155, 0.9);
+}
+#searchForm{
+    margin-top: 100px;
+    position: relative;
+    border: 1px solid rgba(155, 155, 155, 0.3);
+}
+#searchForm form{
+    flex-wrap: wrap;
+}
+#searchForm form>div{
+    padding: 10px 0px;
+}
+#searchForm form input,#searchForm form select{
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(216, 216, 216);
+    transition: 0.3s;
+}
+#searchForm form div.col-2{
+    padding-right: 30px;
+}
+#searchForm form input:hover,#searchForm form select:hover{
+    border: 1px solid black;
+}
+#searchForm form .posalji{
+    margin-top: 32px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+}
+#searchForm #bathrooms,#searchForm #bedrooms{
+    width: 90%;
+} 
+.searchH3{
+    position: absolute;
+    height: 50px;
+    font-size: 22px;
+    top: -50px;
+    left: -1px;
+    padding: 15px;
+    background-color: rgb(43, 65, 187);
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+::selection{
+    text-shadow: none;
+    background-color: rgb(43, 65, 187);
+    color: #fafafa;
+}
+#searchForm form  select{
+    -webkit-appearance: none;
+}
+#sellCover{
+    height: 500px;
+    background-image: url('../images/sellCover.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+#sellCoverText{
+    justify-content: center;
+    line-height: 2;
+    padding: 10px;
+}
+#sellCoverText h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.sellText{
+    padding: 50px;
+}
+.sellText p{
+    margin-top: 40px;
+    color: rgba(155, 155, 155);
+}
+.broj{
+    font-size: 50px;
+    color: rgba(155, 155, 155, 0.5);
+}
+.sellSteps{
+    padding: 30px;
+}
+.sellSteps>div{
+    margin-top: 20px;
+    align-items: center;
+}
+.sellSteps img{
+    text-align: center;
+    border: 1px solid rgb(43, 65, 187);
+    border-radius: 50%;
+    width: 150px;
+}
+.sellSteps .crta{
+    margin: 0px 15px;
+    position: relative;
+    height: 50px;
+    width: 1px;
+}
+.sellStepsText{
+    font-size: 20px;
+}
+.about{
+    padding: 60px 0px;
+}
+.aboutBlock{
+    padding: 20px;
+}
+.aboutBlock p{
+    font-size: 15px;
+    color: rgba(155, 155, 155);
+}
+.aboutBlock img{
+    margin-right: 30px;
+}
+#fillInForm{
+    margin: 20px 0px;
+    height: 500px;
+    background-image: url(../images/fillInForm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#formContainer p, #formContainer label, #formRegister label, #formEdit select, .blokReg input{
+    color: rgba(37, 37, 37, 0.5);
+}
+#formContainer input, #formContainer select, #formContainer textarea, #agentType, #formEdit select, #agent, #outcomeDdl, #outcomeDescription, .blokReg input, #visit input, #imagePreview, #agentDesc{
+    color:rgba(37, 37, 37, 0.5);
+    border: 2px solid rgba(37, 37, 37, 0.2);
+    padding: 5px;
+    margin-bottom: 15px;
+}
+#formContainer input:focus, #formContainer select:focus, #agent:focus, #outcomeDdl:focus, #outcomeDescription:focus #formContainer textarea:focus, .blokReg input:focus, #formEdit select:focus, #agentType:focus,  #agentDesc:focus{
+    border: 2px solid rgba(37, 37, 37, 0.5);
+}
+.features, .listingDetails{
+    flex-wrap: wrap;
+}
+.listingDetails, .features{
+    justify-content: space-between;
+}
+.features span{
+    width: 18%;
+    margin: 1%;
+    color:rgba(37, 37, 37, 0.5);
+}
+.features span label{
+    margin-left: 5px;
+}
+.formInputs{
+    padding: 20px 60px;
+}
+.formBlock{
+    padding: 20px;
+    border-bottom: 3px solid #eee;
+    flex-wrap: wrap;
+}
+#submitProperty{
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    width: 150px;
+    text-align: center;
+    margin-top: 25px;
+    transition: 0.3s;
+}
+#submitProperty:hover{
+    color: #333;
+    background-color: white;
+}
+#formRegister form{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+}
+#formRegister .posalji{
+    margin-top: 20px;
+    background-color: rgb(43, 65, 187);
+    color: white;
+}
+#bars{
+    float: right;
+    padding: 17px 17px 0px 0px;
+}
+.bar1, .bar2, .bar3{
+    width: 30px;
+    height: 3px;
+    background-color: rgb(43, 65, 187);
+    border-radius: 15px;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.MeniBar .bar1 {
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+.MeniBar .bar2 {
+    opacity: 0;
+}
+.MeniBar .bar3 {
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+#header2{
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 97px;
+    height: 100vh;
+    left: 0px;
+    z-index: 99;
+    background-color: #fff;
+    border-bottom: 2px solid rgba(155, 155, 155, 0.9);
+    font-size: 18px;
+}
+#header2 nav ul{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+#header2 nav ul li{
+    padding: 15px;
+}
+#header2 nav ul li a{
+    color: rgb(43, 65, 187);
+    text-transform: uppercase;
+}
+#image{
+    padding: 50px;
+    padding-bottom: 0px;
+}
+#propertyTypeCity{
+    padding: 10px 0px 50px 80px;
+}
+#propertyTitle{
+    padding: 50px;
+}
+#visitContainer{
+    height: 100%;
+    position: absolute;
+    width: 35%;
+    top: 320px;
+    right: 10%;
+    z-index: 50;
+}
+#visit{
+    width: 100%;
+    border: 1px solid rgba(155, 155, 155, 0.9);
+    background-color: #fff;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+}
+#visit input{
+    width: 80%;
+    margin-bottom: 40px;
+}
+#visit input[type=button]{
+    border: 3px solid rgb(43, 65, 187);
+    background-color: white;
+    color: rgb(43, 65, 187);
+    transition: 0.3s;
+}
+#date, #time{
+    padding-left: 20px !important;
+}
+#visit>div{
+    padding: 20px;
+    border-bottom: 1px solid rgba(155, 155, 155, 0.9);
+}
+#property{
+    padding: 50px;
+}
+#property>div{
+    padding: 20px 0px;
+}
+#propertyInfo>span{
+    width: 50%;
+    padding: 12px;
+}
+#featuresProperty>p{
+    padding-right: 10px;
+} 
+#featuresProperty{
+    align-items: center;
+}
+#visitFeatures{
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+#visitFeatures>span{
+    width: 48%;
+    padding: 7px;
+    align-items: center;
+    font-size: 15px;
+}
+#visitFeatures>span>i{
+    margin-right: 8px;
+}
+.blue{
+    color: rgb(43, 65, 187);
+}
+.bold{
+    font-weight: 500;
+}
+.featureProperty{
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(216, 216, 216, 0.5);
+}
+#propertyContainer, #property{  
+    background-color: rgba(216, 216, 216, 0.1);
+}
+#address{
+    font-size: 18px;
+}
+#titleProperty{
+    font-size: 34px;
+}
+#paginacija{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.nano-content li{
+    display: block;
+}
+.page{
+    border: 1px solid rgba(155, 155, 155, 0.3);
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+}
+.page:hover{
+    border: 1px solid rgb(43, 65, 187);
+}
+.aktivan{
+    border: none;
+    background-color: rgb(43, 65, 187);
+    color: white !important;
+}
+.blokReg{
+    position: relative;
+}
+.error{
+    border-color: rgb(255, 66, 66) !important;
+}
+.errorText{
+    color: rgb(255, 66, 66);
+}
+#formRegister ol{
+    padding: 50px 0px;
+}
+#formRegister ol li{
+    padding-top: 10px;
+}
+.oldPrice{
+    color: rgba(155, 155, 155, 0.5);
+    font-size: 18px;
+    text-decoration: line-through;
+}
+#noResults{
+    padding: 250px 0px;
+    color: rgba(155, 155, 155, 0.5);
+    font-size: 25px;
+}
+#captchaContainer{
+    align-items: center;
+}
+.captchaTextContainer label, #captchaText{
+    margin-bottom: 0px;
+}
+#loginEmailError, #loginPasswordError{
+    font-size: 15px;
+}
+#images{
+    border: none !important;
+    margin-bottom: 0px !important;
+}
+.imagePreview, .editImages{
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+}
+.editImages img{
+    width: 100%;
+    height: 100%;
+}
+.editImages{
+    position: relative;
+}
+.deleteImage{
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: rgb(90, 88, 88);
+    background-color: rgb(216, 216, 216);
+}
+.profile{
+    font-size: 24px;
+    position: relative;
+}
+.profileLink{
+    color: rgb(43, 65, 187);
+    padding: 9px 15px 11px 15px !important;
+}
+.profilePopup{
+    display: none;
+    position: absolute;
+    z-index: 80;
+    right: -65px;
+    width: 200px;
+    height: 250px;
+}
+.profilePoint{
+    position: absolute;
+    transform: rotate(45deg);
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    right: 80px;
+    border-top: 1px solid rgba(155, 155, 155, 0.9);
+    border-left: 1px solid rgba(155, 155, 155, 0.9);
+    z-index: 101;
+}
+.profileData{
+    right: 0px;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    border: 1px solid rgba(155, 155, 155, 0.9);
+    top: 30px;
+}
+.profileData a{
+    display: block;
+    padding: 5px !important;
+    border: 2px solid rgb(43, 65, 187);
+    color: rgb(43, 65, 187);
+    margin-top: 5px;
+    font-size: 12px;
+    width: 80% !important;
+    text-align: center;
+    transition: 0.3s;
+}
+.profileData a:hover, #header2 .profileData a:hover{
+    background-color: rgb(43, 65, 187);
+    border-bottom: 2px solid rgb(43, 65, 187) !important;
+    color: white;
+}
+.numberRealEstates, .profileData a>i{
+    margin-left: 6px;
+    font-weight: 700;
+}
+.editDelete a{
+    color: rgb(43, 65, 187);
+    padding: 10px;
+    font-size: 25px;
+    transition: 0.3s;
+}
+.editDelete a:hover{
+    color: rgb(58, 86, 245)
+}
+
+
+.slider-for{
+	width: 100%;
+	overflow: hidden;
+}
+.slider-nav img, .slider-for img{
+	width: 100%;
+	min-height: 100%;
+}
+.slider-nav img{
+    padding: 5px 10px;
+}
+.slider-nav{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.slider-nav .slick-track{
+	height: auto;
+}
+.slick-arrow{
+	position: absolute;
+    top: 50%;
+    z-index: 50;
+    margin-top: -12px;
+    border: none;
+}
+.slick-prev{
+    left: 0;
+    background-color: rgba(155, 155, 155, 0.5);
+}
+.slick-next{
+    right: 0;
+    background-color: rgba(155, 155, 155, 0.5);
+}
+.left, .right{
+    position: absolute;
+    font-size: 30px;
+    top: 47%;
+    color: rgba(41, 37, 37, 0.8);
+    background-color: rgba(155, 155, 155, 0.8);
+    width: 30px;
+    height: 30px;
+}
+.left{
+    left: 0px;
+    border-radius: 0px 5px 5px 0px;
+}
+.right{
+    right: 0px;
+    border-radius: 5px 0px 0px 5px;
+}
+.main{
+    min-height: 100vh;
+}
+.email{
+    word-wrap: break-word;
+}
+.email .name{
+    color: black;
+    font-size: 15px;
+}
+.email .mail{
+    border: 1px solid rgba(155, 155, 155, 0.2);
+}
+.email .subject{  
+    border-bottom: 1px solid rgba(155, 155, 155, 0.2);
+}
+.email .address{
+    font-size: 12px;
+    word-break: break-all;
+}
+.email .message{
+    font-size: 12px;
+    min-height: 80px;
+}
+.tableContainer{
+    overflow-x: auto;
+}
+#access{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0px auto;
+}
+#access th,td, #loginUser th{
+    border:1px solid rgba(155, 155, 155, 0.8);
+    text-align: center !important;
+    padding: 15px;
+}
+#access th, #loginUser th{
+    background-color:  rgb(43, 65, 187);
+    color: white;
+}
+#loginUser{
+    margin-top: 40px;
+}
+.agentProfilePhoto{
+    height: 150px;
+    display: block;
+    margin: 0px auto;
+}
+#agentProfileImg{
+    display: none;
+}
+#notfound {
+    position: relative;
+    height: 100vh;
+    background-image: url('../images/error.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#notfound .notfound {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+.notfound {
+    max-width: 767px;
+    width: 100%;
+    line-height: 1.4;
+    padding: 0px 15px;
+}
+.notfound .notfound-400 {
+    position: relative;
+    height: 150px;
+    line-height: 150px;
+    margin-bottom: 50px;
+}
+.notfound .notfound-400 h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 186px;
+    font-weight: 900;
+    text-transform: uppercase;
+    background-size: cover;
+    background-position: center;
+}  
+.notfound h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+}
+.notfound p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+} 
+.notfound a {
+    font-family: 'Titillium Web', sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    background: #5c91fe;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 1px;
+    margin-top: 15px;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+.notfound a:hover {
+    opacity: 0.8;
+} 
+@media screen and (max-width:1240px){
+    .features span{
+        width: 31%;
+    }
+}
+@media screen and (max-width:992px){
+    #goUp{
+        left: 45%;
+    }
+    .blok{
+        width: 48% !important;
+        height: 350px;
+    }
+    #barsContainer{
+        display: block;
+    }
+    header>div{
+        justify-content: space-between;
+    }
+    #header{
+        display: none;
+    }
+    #searchForm form .search, #searchForm #bedrooms, #searchForm #bathrooms{
+        width: 95%;
+    }
+    #visitContainer{
+        position: relative;
+        top: 0px;
+        right: 0px;
+        margin: 0px auto;
+    }
+}
+@media screen and (max-width:880px){
+    #contact{
+        padding: 5px;
+    }
+    .features span{
+        width: 48%;
+    }
+    .sellSteps, #formRegister{
+        padding: 0px;
+    }
+    #contactInfo{
+        margin: 30px 0px;
+    }
+    #contactInfo div{
+        padding: 30px;
+    }
+}
+@media screen and (max-width:665px){
+    #topHeader div, #topHeader a{
+        font-size: 12px !important;
+    }
+    #header2{
+        top: 88px;
+    }
+    .formInputs, .dataListnig{
+        padding: 20px 0px;
+    }
+    .formBlock, .text, #formRegister form, #sell{
+        padding: 10px;
+    }
+    .blok{
+        width: 94% !important;
+        margin: 3%;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    #formRegister{
+        padding: 80px 0px;
+    }
+    #sell h2, #sellCover h1, .about h2{
+        font-size: 24px;
+    }
+    .about h2{
+        padding: 10px;
+        width: 100%;
+    }
+    #sell h3, #sellCover h2{
+        font-size: 18px;
+    }
+    #sell h2{
+        text-align: center;
+    }
+    #sell h3{
+        width: 90%;
+    }
+    #backgroundInfo{
+        height: 440px;
+    }
+    #backgroundInfo p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:575px){
+    #searchForm form .search, #searchForm #bedrooms, #searchForm #bathrooms, #propertyInfo span{
+        width: 90%;
+    }
+    .nekretnina h3, .nekretnina h4{
+        font-size: 18px;
+    }
+    #userProperty h3, #userProperty h4{
+        font-size: 20px;
+    }
+    #userProperty .nekretnina>div{
+        padding: 5px;
+    }
+    .editDelete a{
+        font-size: 15px;
+    }
+    #property, #propertyTitle, #image{
+        padding: 20px;
+        padding-bottom: 0px;
+    }
+    #propertyTypeCity{
+        padding-left: 20px;
+    }
+    #header2{
+        top: 60px;
+    }
+    #goUp{
+        left: 37%
+    }
+    #nekretnine{
+        padding: 5px;
+    }
+    .searchH3{
+        font-size: 19px;
+    }
+    .info{
+        display: none;
+    }
+    .aboutBlock{
+        flex-direction: column;
+    }
+    .aboutBlock img{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:350px){
+    .mojModal{
+        width: 290px;
+    }
+    .modalContent p{
+        font-size: 12px;
+    }
+    .sellSteps img{
+        width: 130px;
+    }
+    .sellStepsText{
+        font-size: 16px;
+    }
+}
+@keyframes move{
+    from{
+        bottom: 20%;
+    }
+    to{
+        bottom: 60%;
+    }
+}
+@keyframes animatetop{
+    from{
+        top: -100%;
+    }
+    to{
+        bottom: 100%;
+    }
+}
